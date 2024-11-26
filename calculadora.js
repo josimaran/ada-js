@@ -17,3 +17,4 @@ let descuento = (precioOriginal * porcentajeDescuento) / 100;
 let preciofinal = precioOriginal - descuento;
 
 //5. Mostrar el precio final al usuario
+console.log(El precio final despues del descuento es: ', precioFinal');

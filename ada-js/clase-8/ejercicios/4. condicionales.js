@@ -6,7 +6,7 @@ if (nota < 70) {
 } else if (nota >= 70 && nota <= 100) {
     console.log("Aprobado");
 } else {
-    console.log("Calificación inválida");
+    console.log("Calificación perfecta");
 }
 
 

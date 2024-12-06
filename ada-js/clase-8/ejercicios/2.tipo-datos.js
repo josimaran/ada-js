@@ -10,6 +10,6 @@ console.log(`Numeros: ${numero} y ${numero2}`);
 console.log(`Numero: ${numero}`);
 console.log(`Texto: ${texto}`);
 console.log(`Booleano: ${booleano}`);
-console.log(`Sin definir: ${sindefinir}`); // undefined implícito
-console.log(`Nulo: ${nulo}`); // null
+console.log(`Sin definir: ${sindefinir}`); 
+console.log(`Nulo: ${nulo}`); 
 

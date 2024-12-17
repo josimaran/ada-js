@@ -1,3 +1,5 @@
+
+const prompt = require('prompt-sync')();
 const EDAD_MINIMA = 18;
 const EDAD_MAXIMA = 99;
 

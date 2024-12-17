@@ -1,3 +1,4 @@
+const prompt = require('prompt-sync')();
 let celsius = parseFloat(prompt("Ingresa la temperatura en Celsius: "));
 let fahrenheit = celsius * 9 / 5 + 32;
 

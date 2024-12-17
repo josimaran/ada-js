@@ -1,4 +1,4 @@
-const prompt = require('prompt-sync')();  // Requerimos el paquete para usar prompt.
+const prompt = require('prompt-sync')();  
 
 let nombre = prompt("Ingresa tu nombre: ");  // Pedimos el nombre del usuario.
 let edad = prompt("Ingresa tu edad: ");  // Pedimos la edad.

@@ -1,3 +1,4 @@
+const prompt = require('prompt-sync')();
 // Declaración de Variables
 let verdadero = true; // Tipo booleano
 let texto = "Este es un mensaje de ejemplo"; // Tipo string

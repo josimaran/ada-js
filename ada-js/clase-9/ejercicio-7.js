@@ -1,5 +1,5 @@
-// Pedimos al usuario que ingrese su peso en kilogramos
 const prompt = require('prompt-sync')();
+// Pedimos al usuario que ingrese su peso en kilogramos
 let pesoEnKilogramos = parseFloat(prompt("Ingresa tu peso en kilogramos: "));
 
 // Convertimos el peso de kilogramos a libras

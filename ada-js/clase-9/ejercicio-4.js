@@ -1,4 +1,3 @@
-// Usamos una librería que nos permite pedir información al usuario
 const prompt = require('prompt-sync')();
 
 // Pedimos al usuario que ingrese su nombre

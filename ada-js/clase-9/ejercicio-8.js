@@ -1,5 +1,6 @@
-// Pedir al usuario las longitudes de los tres lados
 const prompt = require('prompt-sync')();
+// Pedir al usuario las longitudes de los tres lados
+
 let lado1 = parseFloat(prompt("Ingresa el primer lado del triángulo: "));
 let lado2 = parseFloat(prompt("Ingresa el segundo lado del triángulo: "));
 let lado3 = parseFloat(prompt("Ingresa el tercer lado del triángulo: "));

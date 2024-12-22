@@ -1,8 +1,9 @@
-//COSAS IMPORTANTES ! 
+const prompt = require('prompt-sync')();
+//COSAS A TENER EN CUENTA
 
-// "comilla doble"    --solo texto
-// 'comilla simple'   --solo texto
-// `backticks`      --puedo concatenar texto y variable
+// "comilla doble"    
+// 'comilla simple'   
+// `backticks`  puedo concatenar texto y variable
 // ${nombre} adentro pongo el nombre de la variable q quiero mostrar
 
 
@@ -11,8 +12,8 @@ let nombre = 'Josi';
 const edad = '38';
 nombre = 'Maria Jose'
 
-console.log(`Hola mi nombre es ${nombre} y tengo ${edad}años.`);
+console.log(`Hola mi nombre es ${nombre} y tengo ${edad} anios.`);
 
 
 //cambiar valor a una variable
-console.log (`Mi nombre completo es Maria Jose`);
+console.log (`Mi nombre completo es Maria Jose Marán`);

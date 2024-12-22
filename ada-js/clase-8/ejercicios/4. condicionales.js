@@ -1,3 +1,4 @@
+const prompt = require('prompt-sync')();
 // Ejercicio condicionales
 let nota = 95;
 

@@ -1,3 +1,4 @@
+const prompt = require('prompt-sync')();
 // Defino distintos tipos de datos
 let numero = 18; // Numero entero
 let numero2 = 18.23; // Numero decimal

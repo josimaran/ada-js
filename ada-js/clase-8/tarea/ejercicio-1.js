@@ -1,10 +1,10 @@
-const prompt = require ('prompt sync')();
+const prompt = require('prompt-sync')(); 
 
-//Solicitud de ingreso de numero
-let numero = parseFloat (prompt ("Por favor ingresa un numero"));
+// Solicitud de ingreso de número
+let numero = parseFloat(prompt("Por favor ingresa un número: "));
 
-//Calculo el doble
+// Calculo el doble
 let doble = numero * 2;
 
-//Muestro el resultado de la consola
-console.log ("El doble de tu numero es: " + doble);
+// Muestro el resultado en la consola
+console.log("El doble de tu número es: " + doble);

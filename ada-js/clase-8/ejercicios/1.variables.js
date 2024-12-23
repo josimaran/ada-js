@@ -12,7 +12,7 @@ let nombre = 'Josi';
 const edad = '38';
 nombre = 'Maria Jose'
 
-console.log(`Hola mi nombre es ${nombre} y tengo ${edad} anios.`);
+console.log(`Hola mi nombre es ${nombre} y tengo ${edad} años.`);
 
 
 //cambiar valor a una variable

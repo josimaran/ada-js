@@ -1,15 +1,15 @@
 const prompt = require('prompt-sync')();
-// Pedir al usuario las longitudes de los tres lados
 
-let lado1 = parseFloat(prompt("Ingresa el primer lado del triángulo: "));
-let lado2 = parseFloat(prompt("Ingresa el segundo lado del triángulo: "));
-let lado3 = parseFloat(prompt("Ingresa el tercer lado del triángulo: "));
+// Defino la constante PI 
+const PI = 3.14159;
 
-// Verificar el tipo de triángulo
-if (lado1 === lado2 && lado2 === lado3) {
-  console.log("El triángulo es equilátero.");
-} else if (lado1 === lado2 || lado1 === lado3 || lado2 === lado3) {
-  console.log("El triángulo es isósceles.");
-} else {
-  console.log("El triángulo es escaleno.");
-}
+// Pido al usuario que ingrese el radio del círculo
+let radio = parseFloat(prompt("Ingresa el radio del círculo: "));
+
+// Calculo el área y el perímetro del círculo
+let area = PI * radio * radio;
+let perimetro = 2 * PI * radio;
+
+// Muestro los resultados
+console.log("El área del círculo es: " + area);
+console.log("El perímetro del círculo es: " + perimetro);

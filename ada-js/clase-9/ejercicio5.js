@@ -1,12 +1,16 @@
 const prompt = require('prompt-sync')();
 
 
-// Pedimos al usuario que ingrese su nombre
-let nombre = prompt("Ingresa tu nombre: ");
+// Solicitar los 3 números al usuario
+let numero1 = parseFloat(prompt("Por favor, ingresa el primer número: "));
+let numero2 = parseFloat(prompt("Por favor, ingresa el segundo número: "));
+let numero3 = parseFloat(prompt("Por favor, ingresa el segundo número: "));
 
-// Comparamos el nombre ingresado con el nombre "Maria"
-if (nombre === "Maria") {
-    console.log("¡Hola, Maria!");
+// Comparar los números y mostrar el resultado
+if (numero1 > numero2 && numero1 > numero3) {
+    console.log("El mayor número es: " + numero1);
+} else if (numero2 > numero1 && numero2 > numero3) {
+    console.log("El mayor número es: " + numero2);
 } else {
-    console.log("Tu nombre no es Maria.");
+    console.log("El mayor número es: " + numero3);
 }

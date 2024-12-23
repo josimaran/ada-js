@@ -1,11 +1,12 @@
 const prompt = require('prompt-sync')();
 
-// Pedimos al usuario que ingrese su nombre
+// Pido al usuario que ingrese su nombre
 let nombre = prompt("Por favor, ingresa tu nombre: ");
 
-// Verificamos si el nombre que ingresó es igual al mío (en este caso, 'Maria')
-if (nombre === "Maria") {
-    console.log("¡Hola, Maria! ¡Qué bien que coincida tu nombre con el mío!");
-} else {
-    console.log("Tu nombre no es Maria. ¡Pero igualmente, mucho gusto!");
+// Verifico si el nombre que ingresó es igual
+if (nombre === "Marta") {
+    console.log("¡Hola, Marta tocaya! ¡Nos llamamos igual!");
+
+else
+    console.log(`No te llamas igual que yo, yo soy Marta, pero tu nombre ${nombre} también es muy bonito`);
 }

@@ -1,14 +1,16 @@
 const prompt = require('prompt-sync')();
 
-// Pedimos al usuario que ingrese dos valores booleanos (true o false)
-let condicion1 = prompt("Ingresa el primer valor (true o false): ");
-let condicion2 = prompt("Ingresa el segundo valor (true o false): ");
+// Pedir al usuario que ingrese los valores booleanos
+let condicion1 = prompt("Ingresa true o false para la primera condición: ");
+let condicion2 = prompt("Ingresa true o false para la segunda condición: ");
 
-// Convertimos los valores ingresados en verdaderos booleanos
-condicion1 = (condicion1 === "true");
-condicion2 = (condicion2 === "true");
+// Convertir las entradas a booleanos
+condicion1 = condicion1 === 'true';
+condicion2 = condicion2 === 'true';
 
-// Mostramos los resultados de las combinaciones lógicas
-console.log("El resultado de AND (condicion1 && condicion2) es: " + (condicion1 && condicion2));
-console.log("El resultado de OR (condicion1 || condicion2) es: " + (condicion1 || condicion2));
-console.log("El resultado de NOT en condicion1 (!condicion1) es: " + !condicion1);
+// Mostrar los resultados de las combinaciones lógicas
+console.log("Resultados:");
+console.log("condicion1 AND condicion2: " + (condicion1 && condicion2));
+console.log("condicion1 OR condicion2: " + (condicion1 || condicion2));
+console.log("NOT condicion1: " + (!condicion1));
+console.log("NOT condicion2: " + (!condicion2));

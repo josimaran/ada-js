@@ -1,3 +1,4 @@
+//Ejercicio 5 – Operadores: 
 // 1. Declaramos y asignamos valores numéricos a dos variables
 let primerNumero = 10;  
 let segundoNumero = 25;  

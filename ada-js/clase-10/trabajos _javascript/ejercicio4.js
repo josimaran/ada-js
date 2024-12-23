@@ -1,3 +1,4 @@
+//Ejercicio 4 – Tipo de Datos:
 // 1. Declaramos una variable de tipo booleano
 let verdadero = true;  
 

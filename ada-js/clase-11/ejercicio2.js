@@ -1,9 +1,9 @@
 const prompt = require('prompt-sync')();
+// Ejercicio 2: Semáforo inteligente 
+// Pido al usuario que ingrese el color del semáforo
+let color = prompt("Ingresa el color del semáforo (rojo, amarillo, verde):").toLowerCase();
 
-// Solicitamos al usuario que ingrese un color del semáforo
-let color = prompt("Ingresa un color del semáforo (rojo, amarillo o verde): ").toLowerCase();
-
-// Evaluamos el color ingresado
+// Utilizo un switch para verificar el color y mostrar el mensaje correspondiente
 switch (color) {
     case "rojo":
         console.log("Alto, no puedes avanzar.");
@@ -16,4 +16,5 @@ switch (color) {
         break;
     default:
         console.log("Color no reconocido, ingresa rojo, amarillo o verde.");
+        break;
 }

@@ -1,5 +1,7 @@
 const prompt = require('prompt-sync')();
 
+//Ejercicio 1: ¿Positivo, negativo o cero?
+
 // Pido al usuario que ingrese un número
 let numero = parseFloat(prompt("Ingresa un número: "));
 

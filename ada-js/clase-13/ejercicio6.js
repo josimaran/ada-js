@@ -9,4 +9,4 @@ function convertirHorasAMinutos(horas) {
 
 // Solicitar horas al usuario
 let horas = parseFloat(prompt("Ingrese la cantidad de horas: "));
-console.log("El equivalente en minutos es: " + convertirHorasAMinutos(horas));
+console.log("El equivalente en minutos es: " + convertirHorasAMinutos(horas) + "minutos");

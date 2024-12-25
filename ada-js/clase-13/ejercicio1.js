@@ -1,5 +1,5 @@
 // Ejercicio 1: Área de un triángulo (función declarada)
-
+const prompt = require('prompt-sync')();
 // Definimos la función calcularAreaTriangulo con dos parámetros: base y altura
 function calcularAreaTriangulo(base, altura) {
     // Calculamos el área usando la fórmula

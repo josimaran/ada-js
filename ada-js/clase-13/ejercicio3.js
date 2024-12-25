@@ -1,5 +1,5 @@
 // Título: Declaración de variables global y local con uso de funciones
-
+const prompt = require('prompt-sync')();
 // Declaración de la variable global
 let saludoGlobal = "Hola desde el scope global";
 
